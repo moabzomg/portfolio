@@ -18,44 +18,27 @@ function ArrowIcon() {
 export default function Footer() {
   return (
     <footer className="mb-16">
-      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="/rss"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">rss</p>
+      <footer className="bg-gray-900 text-white py-6 text-center">
+      <div className="container mx-auto px-4">
+        <p className="text-lg font-semibold">© 2025 Woody Wu | Full Stack Software Developement</p>
+        <p className="mt-2 text-sm">📍 Based in London, UK</p>
+        <div className="flex justify-center space-x-4 mt-3">
+          <a href="https://www.linkedin.com/in/woody-w-779a65209/" target="_blank" className="hover:underline">
+            🔗 LinkedIn
           </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://github.com/vercel/next.js"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">github</p>
+          <a href="https://github.com/moabzomg" target="_blank" className="hover:underline">
+            💻 GitHub
           </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://vercel.com/templates/next.js/portfolio-starter-kit"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">view source</p>
+          <a href="wumantsun@gmail.com" className="hover:underline">
+            📩 Email
           </a>
-        </li>
-      </ul>
-      <p className="mt-8 text-neutral-600 dark:text-neutral-300">
-        © {new Date().getFullYear()} MIT Licensed
-      </p>
+          <a href="tel:+447568085764" className="hover:underline">
+            📞 +44 7568 085764
+          </a>
+        </div>
+        <p className="mt-4 text-xs text-gray-400">Built with Next.js & Tailwind CSS</p>
+      </div>
+    </footer>
     </footer>
   )
 }

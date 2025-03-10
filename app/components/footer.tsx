@@ -32,9 +32,6 @@ export default function Footer() {
           <a href="wumantsun@gmail.com" className="hover:underline">
             📩 Email
           </a>
-          <a href="tel:+447568085764" className="hover:underline">
-            📞 +44 7568 085764
-          </a>
         </div>
         <p className="mt-4 text-xs text-gray-400">Built with Next.js & Tailwind CSS</p>
       </div>

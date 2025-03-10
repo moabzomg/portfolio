@@ -1,8 +1,5 @@
 
-export default function Biography() {
-  return (
-    <div>
-        Hi
-    </div>
-  )
-}
+export default function Biography({ params }: { params: { slug: string } }) {
+    return <div>Biography: {params.slug}</div>;
+  }
+  

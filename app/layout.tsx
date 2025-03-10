@@ -52,7 +52,7 @@ export default function RootLayout({
     <head>
         <title>Woody's Profolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/favicon.ico" />
     </head>
     <body className="antialiased mx-4 mt-8 max-w-[50rem] lg:mx-auto">
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">

@@ -10,11 +10,8 @@ const navItems = {
   "/experience": {
     name: "Work Experience & Education",
   },
-  "/projects": {
-    name: "Projects",
-  },
-  "/articles": {
-    name: "Articles",
+  "/activity": {
+    name: "Beyond Work",
   },
   "/webtools": {
     name: "Web Tools",

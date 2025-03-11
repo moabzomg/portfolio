@@ -24,17 +24,20 @@ const navItems = {
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  // Function to toggle the navigation menu on mobile
+  // Function to toggle the mobile menu visibility
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <aside className="mb-16 tracking-tight">
-      <div className="px-4 sm:px-6 lg:px-8">
-        <nav className="flex justify-between items-center">
-          {/* Hamburger Menu (only on mobile) */}
+    <aside className="-ml-[8px] mb-16 tracking-tight">
+      <div className="lg:sticky lg:top-20">
+        <nav
+          className="flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
+          id="nav"
+        >
+          {/* Hamburger Menu Button (only on mobile) */}
           <button
-            onClick={toggleMenu}
             className="lg:hidden flex items-center justify-center p-2"
+            onClick={toggleMenu}
             aria-label="Toggle menu"
           >
             <svg
@@ -62,19 +65,19 @@ export function Navbar() {
             </svg>
           </button>
 
-          {/* Navigation links (mobile menu pop-up) */}
+          {/* Mobile Navigation Menu (visible when hamburger is clicked) */}
           <div
             className={`${
               isOpen ? "flex" : "hidden"
-            } fixed inset-0 z-50 bg-gray-800 bg-opacity-75 justify-center items-center`}
+            } absolute top-0 left-0 right-0 bg-gray-800 bg-opacity-75 z-50 p-4 md:hidden`}
           >
-            <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg w-72 md:w-96">
-              <div className="space-y-4 flex flex-col">
+            <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg w-72">
+              <div className="space-y-4">
                 {Object.entries(navItems).map(([path, { name }]) => (
                   <Link
                     key={path}
                     href={path}
-                    className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 py-2 px-4 text-lg font-medium block"
+                    className="text-lg font-medium text-black dark:text-white py-2 px-4 block"
                     onClick={toggleMenu} // Close the menu when a link is clicked
                   >
                     {name}
@@ -82,6 +85,19 @@ export function Navbar() {
                 ))}
               </div>
             </div>
+          </div>
+
+          {/* Desktop Navigation Links (only visible on larger screens) */}
+          <div className="hidden lg:flex space-x-6">
+            {Object.entries(navItems).map(([path, { name }]) => (
+              <Link
+                key={path}
+                href={path}
+                className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 py-2 px-4 text-lg font-medium"
+              >
+                {name}
+              </Link>
+            ))}
           </div>
         </nav>
       </div>

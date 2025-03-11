@@ -7,6 +7,12 @@ const navItems = {
   "/about": {
     name: "About",
   },
+  "/experience": {
+    name: "Work Experience & Education",
+  },
+  "/projects": {
+    name: "Projects",
+  },
   "/articles": {
     name: "Articles",
   },

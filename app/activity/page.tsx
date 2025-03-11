@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Projects",
-  description: "Projects",
+  title: "Beyond work",
+  description: "Beyond work",
 };
 
 export default function Page() {

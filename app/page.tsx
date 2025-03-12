@@ -22,7 +22,7 @@ export default function Page() {
         Striving for the best, one step at a time.
       </h1>
 
-      <p className="mb-4 text-lg max-w-xl text-center" data-aos="fade-up">
+      <p className="mb-4 text-lg max-w-xl " data-aos="fade-up">
         I have a strong drive for excellence and always put in my best effort. I
         focus on the details that matter, ensuring quality in everything I do.
         When it comes to work, I dive right in, ready to tackle challenges with

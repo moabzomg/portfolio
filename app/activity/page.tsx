@@ -67,6 +67,10 @@ export default function Page() {
                 title: "🎙️ Podcast (Chinese version only)",
                 url: "https://www.instagram.com/sportunes_by_sportsoho/p/CqFlTD1vKzF/",
               },
+              {
+                title: "👣 Strava Link",
+                url: "https://www.strava.com/activities/8614711811",
+              },
             ].map((link, index) => (
               <li key={index}>
                 <a

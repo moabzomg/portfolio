@@ -46,10 +46,7 @@ export default function Page() {
           <a href="/experience">View Work Experience & Education</a>
         </button>
         <button className="px-6 py-3 bg-gray-700 text-white text-lg rounded-lg shadow-lg transition-all duration-300 transform hover:scale-110 hover:bg-gray-800 hover:shadow-xl">
-          <a href="/articles">View My Articles</a>
-        </button>
-        <button className="px-6 py-3 bg-teal-600 text-white text-lg rounded-lg shadow-lg transition-all duration-300 transform hover:scale-110 hover:bg-teal-700 hover:shadow-xl">
-          <a href="/projects">View My Projects</a>
+          <a href="/activity">Beyond Work</a>
         </button>
       </div>
 
@@ -81,7 +78,7 @@ export default function Page() {
               year: "2020 Apr",
               title: "Final Year Project at Wu Yee Sun College, CUHK",
               description: "Received the Best Final Year Project Award.",
-              link: "/projects",
+              link: "/activity",
             },
             {
               year: "2020 Jul",
@@ -116,7 +113,7 @@ export default function Page() {
               title: "Tuen Ma Run Event",
               description:
                 "Organised and completed the Tuen Ma Line Run challenge.",
-              link: "/projects",
+              link: "/activity",
             },
             {
               year: "2022 Sept",
@@ -130,7 +127,7 @@ export default function Page() {
               title: "Broke Hong Kong Resident Record in Oxfam Trailwalker",
               description:
                 "Completed the 100km trail with 4,800m+ elevation, setting a new record and earning media recognition.",
-              link: "/articles",
+              link: "/activity",
             },
             {
               year: "2023 Sept",

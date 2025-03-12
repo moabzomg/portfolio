@@ -17,7 +17,7 @@ export default function Page() {
           className="w-48 h-48 object-cover rounded-full border-4 border-teal-400 shadow-xl transform transition-all duration-500 hover:scale-110 hover:rotate-6"
         />
       </div>
-      <div className="max-w-3xl text-center mb-8">
+      <div className="max-w-3xl mb-8">
         <p className="text-xl mb-6 tracking-wide leading-relaxed opacity-80 transform transition-all duration-500 hover:scale-105 hover:text-teal-400">
           Hi, I'm <span className="font-bold text-teal-400">Woody Wu</span>, a
           passionate software developer with a deep interest in technology,

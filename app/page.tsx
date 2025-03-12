@@ -23,9 +23,9 @@ export default function Page() {
       </h1>
 
       <p className="mb-4 text-lg max-w-xl text-center" data-aos="fade-up">
-        I’m a perfectionist who always strives for the best. I aim for success,
-        even if it means thinking a bit too much about the small details. When
-        it comes to work, I jump right in, ready to face any challenges with
+        I have a strong drive for excellence and always put in my best effort. I
+        focus on the details that matter, ensuring quality in everything I do.
+        When it comes to work, I dive right in, ready to tackle challenges with
         focus and a smile.
       </p>
 

@@ -16,9 +16,6 @@ const navItems = {
   "/activity": {
     name: "Beyond Work",
   },
-  "/webtools": {
-    name: "Web Tools",
-  },
 };
 
 export function Navbar() {

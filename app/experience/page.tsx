@@ -70,6 +70,8 @@ export default function Page() {
               <li>📦 Docker</li>
               <li>🚀 Jira</li>
               <li>📝 WordPress</li>
+              <li>🏢 Infor M3</li>
+              <li>📨 OpenText StreamServe</li>
             </ul>
           </div>
         )}
@@ -114,6 +116,13 @@ export default function Page() {
         <div className="max-w-4xl mx-auto">
           {/* Work Experience Panels */}
           {[
+            {
+              title: "Software Developer @ SMC Coperation (UK)",
+              date: "2025 Jun - Present",
+              description:
+                "Perform software devlopment of Infor M3 in the European IT department to facilitate operations between the subsidiaries, using a wide range to tools and framworks including IEC (M3 e-Collaborator), MOM (M3 Output Management) with OpenText StreamServe, M3 Adaptation Kit (MAK) and H5 scripts.",
+              link: "https://www.smc.eu/en-gb",
+            },
             {
               title:
                 "Senior Programmer @ InfoTech Services (Hong Kong) Limited",

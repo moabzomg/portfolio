@@ -141,6 +141,13 @@ export default function Page() {
               title: "Left InfoTech and Moved to the UK",
               description: "Exploring new career opportunities and challenges.",
             },
+            {
+              year: "2025 June",
+              title:
+                "Join SMC Coperation (UK) based in Milton Keynes as an EIT Software Developer",
+              description:
+                "Started my new role in the European IT department, performing software development of Infor M3 to facilitate operations between the 20+ subsidiaries in Europe",
+            },
           ].map((event, index) => (
             <div key={index} className="relative flex items-start mb-8 ml-14">
               {/* Dot */}

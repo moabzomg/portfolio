@@ -102,7 +102,7 @@ export default function Page() {
             },
 
             {
-              year: "2021 Jul",
+              year: "2021J ul",
               title: "Joined Automated Systems (H.K.) Limited",
               description:
                 "Started as a Graduate Trainee, working on projects for the Inland Revenue Department and Education Bureau.",

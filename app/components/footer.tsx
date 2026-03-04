@@ -39,7 +39,7 @@ export default function Footer() {
             >
               💻 GitHub
             </a>
-            <a href="wumantsun@gmail.com" className="hover:underline">
+            <a href="mailto:wumantsun@gmail.com" className="hover:underline">
               📩 Email
             </a>
           </div>

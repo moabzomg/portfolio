@@ -137,12 +137,12 @@ export default function Page() {
               link: "/experience",
             },
             {
-              year: "2024 March",
+              year: "2024 Mar",
               title: "Left InfoTech and Moved to the UK",
               description: "Exploring new career opportunities and challenges.",
             },
             {
-              year: "2025 June",
+              year: "2025 Jun",
               title:
                 "Join SMC Coperation (UK) based in Milton Keynes as an EIT Software Developer",
               description:

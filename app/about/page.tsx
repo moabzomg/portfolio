@@ -147,6 +147,7 @@ export default function Page() {
                 "Join SMC Coperation (UK) based in Milton Keynes as an EIT Software Developer",
               description:
                 "Started my new role in the European IT department, performing software development of Infor M3 to facilitate operations between the 20+ subsidiaries in Europe",
+              link: "/experience",
             },
           ].map((event, index) => (
             <div key={index} className="relative flex items-start mb-8 ml-14">

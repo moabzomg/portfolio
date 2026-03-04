@@ -151,10 +151,10 @@ export default function Page() {
           ].map((event, index) => (
             <div key={index} className="relative flex items-start mb-8 ml-14">
               {/* Dot */}
-              <div className="absolute left-0 w-6 h-6 bg-teal-500 rounded-full"></div>
+              <div className="absolute left-0 w-6 h-6 bg-teal-500 rounded-full mb-8"></div>
 
               {/* Year */}
-              <div className="text-2xl font-semibold text-teal-400 mb-2 ml-10 w-32">
+              <div className="text-xl font-semibold text-teal-400 mb-2 ml-10 w-32">
                 {event.year}
               </div>
 

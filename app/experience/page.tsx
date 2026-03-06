@@ -117,7 +117,7 @@ export default function Page() {
           {/* Work Experience Panels */}
           {[
             {
-              title: "Software Developer @ SMC Coperation (UK)",
+              title: "Software Developer @ SMC Coporation (UK)",
               date: "2025 Jun - Present",
               description:
                 "Perform software devlopment of Infor M3 in the European IT department to facilitate operations between the subsidiaries, using a wide range to tools and framworks including IEC (M3 e-Collaborator), MOM (M3 Output Management) with OpenText StreamServe, M3 Adaptation Kit (MAK) and H5 scripts.",
